@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #0050C3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.logo{
+    color: white;
+    width: 150px;
+    height: auto;
+    fill: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+}
+
+.boton-primary{
+    background-color: #0050C3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.boton-secondary{
+    background-color: #F2F2F2;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-self: center;
+    justify-content: space-between ;
+}
+
+.menuFlex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero{
+    color:white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.email-form{
+    background-color: white;
+    width: 18%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #0050C3;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
