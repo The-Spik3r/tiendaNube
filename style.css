@@ -1,103 +1,199 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-section{
-    background-color: #0050C3;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
+.logo {
+  color: white;
+  filter: invert(1);
+  width: 150px;
+  height: auto;
+  fill: white;
 }
 
-.logo{
-    color: white;
-    width: 150px;
-    height: auto;
-    fill: white;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+li {
+  list-style: none;
 }
 
-li{
-    list-style: none;
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
 }
 
-h1{
-    font-size: 4.5rem;
-    margin-bottom: 20px;
+.boton-primary {
+  background-color: #0050c3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-.boton-primary{
-    background-color: #0050C3;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
+.boton-secondary {
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
-.boton-secondary{
-    background-color: #F2F2F2;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
+nav {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  background-color: #0050c3;
 }
 
-nav{
-    display: flex;
-    align-self: center;
-    justify-content: space-between ;
+.menuFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.menuFlex{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.hero {
+  background-color: #0050c3;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 }
 
-.hero{
-    color:white;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
+.hero-text {
+  width: 50%;
 }
 
-.hero-text{
-    width: 50%;
+.email-form {
+  background-color: white;
+  width: fit-content;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.email-form{
-    background-color: white;
-    width: 18%;
-    height: 40px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 5px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+input {
+  border: none;
+  border-radius: 5px;
 }
 
-input{
-    border: none;
-    border-radius: 5px;
+input[type="submit"] {
+  background-color: #0050c3;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
 }
 
-input[type="submit"]{
-    background-color: #0050C3;
-    padding: 10px;
-    border-radius: 30px;
-    color: white;
+.feature {
+  margin-top: 80px;
+  background-color: white;
+  padding: 0;
+  width: 100vw;
+}
+
+.feature-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 500px;
+  height: 225px;
+  border-radius: 10px;
+  border: solid 1px gray;
+}
+
+.feature-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.card-icon {
+  display: flex;
+  background-color: gray;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.card-icon img {
+  filter: invert(1);
+}
+
+.benefit {
+  margin-top: 80px;
+  background-color: white;
+  padding: 0;
+  width: 100vw;
+}
+
+.benefit-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.benefit-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.benefit-image img {
+  width: 50%;
+  height: auto;
+}
+
+.benefit-body {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.benefit-text h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
 }
