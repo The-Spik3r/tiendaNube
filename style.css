@@ -78,7 +78,13 @@ nav {
 .hero-text {
   width: 50%;
 }
-
+.hero-body {
+  display: flex;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+}
 .email-form {
   background-color: white;
   width: fit-content;
@@ -326,4 +332,71 @@ footer {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+.create-shop {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 190px;
+  padding-bottom: 190px;
+  display: flex;
+  justify-content: center;
+}
+
+.create-shop-body {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.create-shop-image img {
+  width: 550px;
+  height: auto;
+}
+.create-shop-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.create-shop-text h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.faq {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 190px;
+  padding-bottom: 190px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.faq-text {
+  font-size: 1.5rem;
+}
+.faq-colaps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 50%;
+}
+.invert img {
+  transform: scaleY(-1);
+}
+.faq-colaps-header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-colaps-header img {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 100%;
+}
+.faq-colaps-title {
+  font-size: 1.5rem;
 }
